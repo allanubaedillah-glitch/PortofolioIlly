@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "playground": "Playground",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Illy • Illustrator & Visual Artist",
+    "greeting": "Hey, I'm RawonBillish!",
+    "tagline": "Just a Little Artist in a Big Creative World.",
+    "intro": "I'm an illustrator and visual artist who enjoys creating characters, exploring random ideas, and experimenting with different visual styles.",
+    "primaryCta": "Explore My Artwork",
+    "secondaryCta": "Get to Know Me",
+    "mascotCaption": "Official Mascot"
+  },
+  "featured": {
+    "eyebrow": "CURATED ARCHIVE",
+    "title": "Selected Creations",
+    "subtitle": "A collection of things I've created, explored, and enjoyed making.",
+    "cta": "Explore All Artwork",
+    "empty": "No featured artworks yet. Add entries in src/data/artworks.json."
+  },
+  "playground": {
+    "eyebrow": "CREATIVE UNIVERSE",
+    "title": "Welcome to My Playground",
+    "subtitle": "Switch between worlds — from original character sheets and crisp pixel sprites to spontaneous doodles and frame experiments.",
+    "allLabel": "All Works",
+    "countSuffix": "works",
+    "emptyCategory": "Nothing in this corner yet — new experiments coming soon.",
+    "categories": {
+      "OC Universe": {
+        "label": "OC Universe",
+        "tagline": "Original characters, reference sheets & personality studies"
+      },
+      "Illustrations": {
+        "label": "Illustrations",
+        "tagline": "Finished digital pieces, posters & expressive scenes"
+      },
+      "Pixel Playground": {
+        "label": "Pixel Playground",
+        "tagline": "Crisp miniature sprites, icons & chibi pixel studies"
+      },
+      "Random Creations": {
+        "label": "Random Creations",
+        "tagline": "Spontaneous ideas, lighthearted edits & off-the-cuff art"
+      },
+      "Experiments": {
+        "label": "Experiments",
+        "tagline": "Loose sketches, anatomy doodles & frame-by-frame motion"
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "PERSONAL NOTES",
+    "title": "Behind the Art",
+    "introTitle": "Hi, I'm Illy (RawonBillish)",
+    "introBody": "Drawing is my favorite way to give shape to odd little ideas, expressive characters, and everyday moments. Rather than sticking to a single rigid style, I like jumping between clean digital illustration, tiny pixel sprites, loose sketches, and playful visual experiments.",
+    "interestsTitle": "Creative Interests",
+    "approachTitle": "Artistic Approach",
+    "approachBody": "Playful, character-driven, and curiosity-first. Some pieces are polished character posters; others start as quick red-ink doodles or mixed-media jokes with real photos.",
+    "journeyTitle": "Creative Journey",
+    "toolsTitle": "Software & Tools",
+    "toolsNote": "Editable placeholder — update in src/data/profile.json",
+    "mascotCardLabel": "Mascot Identity",
+    "mascotCardNote": "Original heart-hands mascot preserved as brand centerpiece."
+  },
+  "contact": {
+    "eyebrow": "SAY HELLO",
+    "title": "Let's Connect!",
+    "subtitle": "Curious about a character, want to share thoughts on art, or just dropping by? Find my corners across the web below.",
+    "closing": "Thanks for wandering around my little creative world.",
+    "configuredLabel": "Visit",
+    "placeholderLabel": "Placeholder"
+  },
+  "lightbox": {
+    "close": "Close preview",
+    "previous": "Previous artwork",
+    "next": "Next artwork",
+    "year": "Year",
+    "category": "Category",
+    "tools": "Tools Used",
+    "toolsUnlisted": "Not specified (editable in artworks.json)",
+    "framesTitle": "Frame-by-Frame Preview",
+    "play": "Play",
+    "pause": "Pause",
+    "frameLabel": "Frame"
+  },
+  "footer": {
+    "madeWith": "RawonBillish • Personal Artist Portfolio",
+    "rights": "All artworks belong to RawonBillish (Illy)."
+  }
+}

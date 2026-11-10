@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1B2945;
+  --slate: #34445F;
+  --warm-white: #F5F3F0;
+  --terracotta: #A96850;
+  --beige: #D5B5A5;
+  --pure-white: #FFFFFF;
+  --font-display: "Plus Jakarta Sans";
+  --font-sans: "DM Sans";
+  --font-mono: "JetBrains Mono";
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--warm-white);
+    color: var(--navy);
+    overflow-x: clip;
+  }
+
+  body {
+    background-color: var(--warm-white);
+    color: var(--navy);
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display), system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Subtle paper grain & studio dot texture */
+.bg-studio-paper {
+  background-color: var(--warm-white);
+  background-image:
+    radial-gradient(rgba(27, 41, 69, 0.055) 1px, transparent 1px),
+    radial-gradient(rgba(169, 104, 80, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px, 42px 42px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Crisp rendering for pixel art */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Gentle entrance animations */
+@keyframes mascotEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeUpSoft {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-mascot-enter {
+  animation: mascotEnter 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fade-up {
+  animation: fadeUpSoft 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-float-slow {
+  animation: floatSlow 5.5s ease-in-out infinite;
+}
+
+/* Scroll reveal utility */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-item.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-mascot-enter,
+  .animate-fade-up,
+  .animate-float-slow {
+    animation: none !important;
+  }
+
+  .reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

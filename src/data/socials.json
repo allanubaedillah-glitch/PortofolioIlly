@@ -1,0 +1,30 @@
+[
+  {
+    "id": "instagram",
+    "platform": "Instagram",
+    "handle": "@rawonbillish",
+    "url": "https://instagram.com/rawonbillish",
+    "configured": true
+  },
+  {
+    "id": "behance",
+    "platform": "Behance",
+    "handle": "Add Behance link in src/data/socials.json",
+    "url": "",
+    "configured": false
+  },
+  {
+    "id": "artstation",
+    "platform": "ArtStation",
+    "handle": "Add ArtStation link in src/data/socials.json",
+    "url": "",
+    "configured": false
+  },
+  {
+    "id": "email",
+    "platform": "Email",
+    "handle": "Add email address in src/data/socials.json",
+    "url": "",
+    "configured": false
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "artistName": "RawonBillish",
+  "nickname": "Illy",
+  "handle": "@rawonbillish",
+  "tagline": "Just a Little Artist in a Big Creative World.",
+  "taglineId": "Just a Little Artist in a Big Creative World.",
+  "mascotImage": "/images/mascot-main.png",
+  "avatarPlaceholderNote": "Editable in src/data/profile.json",
+  "interests": [
+    {
+      "id": "oc",
+      "labelEn": "Original Character (OC)",
+      "labelId": "Karakter Orisinal (OC)",
+      "noteEn": "Designing personalities, silhouettes, and character sheets.",
+      "noteId": "Merancang kepribadian, siluet, dan lembar referensi karakter."
+    },
+    {
+      "id": "illustration",
+      "labelEn": "Digital Illustration",
+      "labelId": "Ilustrasi Digital",
+      "noteEn": "Expressive portraits, playful scenes, and character storytelling.",
+      "noteId": "Potret ekspresif, adegan santai, dan cerita visual karakter."
+    },
+    {
+      "id": "pixel",
+      "labelEn": "Pixel Art",
+      "labelId": "Seni Piksel (Pixel Art)",
+      "noteEn": "Crisp chibi sprites and expressive miniature icons.",
+      "noteId": "Sprite chibi tajam dan ikon ekspresif berukuran ringkas."
+    },
+    {
+      "id": "random",
+      "labelEn": "Random & Experimental Art",
+      "labelId": "Seni Acak & Eksperimental",
+      "noteEn": "Mixed-media ideas, loose sketches, and frame-by-frame tests.",
+      "noteId": "Ide spontan campuran foto-ilustrasi, sketsa bebas, dan uji gerak frame."
+    }
+  ],
+  "tools": [
+    {
+      "name": "[Add Primary Drawing App]",
+      "status": "placeholder"
+    },
+    {
+      "name": "[Add Pixel Art Tool]",
+      "status": "placeholder"
+    },
+    {
+      "name": "[Add Tablet / Device]",
+      "status": "placeholder"
+    }
+  ],
+  "journeyPlaceholderEn": "This space is reserved for Illy's personal creative journey note — how drawing started, favorite themes, and current artistic experiments. (Editable in src/data/profile.json)",
+  "journeyPlaceholderId": "Ruang ini disiapkan untuk cerita perjalanan kreatif pribadi Illy — awal mula suka menggambar, tema favorit, hingga eksperimen visual saat ini. (Dapat diubah di src/data/profile.json)"
+}

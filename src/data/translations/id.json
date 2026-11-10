@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "portfolio": "Portofolio",
+    "playground": "Playground",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "badge": "Illy • Ilustrator & Seniman Visual",
+    "greeting": "Hai, aku RawonBillish!",
+    "tagline": "Just a Little Artist in a Big Creative World.",
+    "intro": "Aku seorang ilustrator dan seniman visual yang suka merancang karakter, mengeksplorasi ide-ide acak, dan bereksperimen dengan berbagai gaya visual.",
+    "primaryCta": "Jelajahi Karyaku",
+    "secondaryCta": "Kenali Aku",
+    "mascotCaption": "Maskot Resmi"
+  },
+  "featured": {
+    "eyebrow": "ARSIP PILIHAN",
+    "title": "Selected Creations",
+    "subtitle": "Kumpulan karya yang aku buat, eksplorasi, dan nikmati proses pembuatannya.",
+    "cta": "Lihat Semua Karya",
+    "empty": "Belum ada karya pilihan. Tambahkan entri di src/data/artworks.json."
+  },
+  "playground": {
+    "eyebrow": "DUNIA KREATIF",
+    "title": "Welcome to My Playground",
+    "subtitle": "Jelajahi tiap sudut eksperimen — dari lembar karakter orisinal dan sprite pixel hingga sketsa spontan dan uji animasi.",
+    "allLabel": "Semua Karya",
+    "countSuffix": "karya",
+    "emptyCategory": "Belum ada karya di kategori ini — eksperimen baru segera hadir.",
+    "categories": {
+      "OC Universe": {
+        "label": "OC Universe",
+        "tagline": "Karakter orisinal, lembar referensi & studi kepribadian"
+      },
+      "Illustrations": {
+        "label": "Illustrations",
+        "tagline": "Ilustrasi digital selesai, poster & adegan ekspresif"
+      },
+      "Pixel Playground": {
+        "label": "Pixel Playground",
+        "tagline": "Sprite mini tajam, ikon & studi chibi pixel art"
+      },
+      "Random Creations": {
+        "label": "Random Creations",
+        "tagline": "Ide spontan, edit santai & karya acak penuh humor"
+      },
+      "Experiments": {
+        "label": "Experiments",
+        "tagline": "Sketsa bebas, coretan anatomi & uji gerak frame-by-frame"
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "CATATAN PRIBADI",
+    "title": "Behind the Art",
+    "introTitle": "Hai, aku Illy (RawonBillish)",
+    "introBody": "Menggambar adalah caraku menuangkan ide-ide unik, karakter ekspresif, dan momen keseharian. Alih-alih terpaku pada satu gaya kaku, aku senang berpindah antara ilustrasi digital yang rapi, pixel sprite mungil, sketsa spontan, hingga eksperimen visual yang santai.",
+    "interestsTitle": "Ketertarikan Kreatif",
+    "approachTitle": "Pendekatan Berkarya",
+    "approachBody": "Penuh rasa ingin tahu, berpusat pada karakter, dan tetap menyenangkan. Ada karya yang digarap rapi sebagai poster karakter, ada pula yang lahir dari sketsa cepat bertinta merah atau gabungan foto sehari-hari.",
+    "journeyTitle": "Perjalanan Kreatif",
+    "toolsTitle": "Perangkat & Aplikasi",
+    "toolsNote": "Placeholder yang bisa diedit — ubah di src/data/profile.json",
+    "mascotCardLabel": "Identitas Maskot",
+    "mascotCardNote": "Maskot asli dengan pose heart-hands dipertahankan sebagai pusat identitas."
+  },
+  "contact": {
+    "eyebrow": "SAPA AKU",
+    "title": "Let's Connect!",
+    "subtitle": "Penasaran dengan karakterku, ingin ngobrol soal gambar, atau sekadar mampir? Temukan tautan sosialku di bawah ini.",
+    "closing": "Thanks for wandering around my little creative world.",
+    "configuredLabel": "Kunjungi",
+    "placeholderLabel": "Placeholder"
+  },
+  "lightbox": {
+    "close": "Tutup pratinjau",
+    "previous": "Karya sebelumnya",
+    "next": "Karya berikutnya",
+    "year": "Tahun",
+    "category": "Kategori",
+    "tools": "Alat yang Digunakan",
+    "toolsUnlisted": "Belum dicantumkan (dapat diedit di artworks.json)",
+    "framesTitle": "Pratinjau Frame-by-Frame",
+    "play": "Putar",
+    "pause": "Jeda",
+    "frameLabel": "Frame"
+  },
+  "footer": {
+    "madeWith": "RawonBillish • Portofolio Seni Pribadi",
+    "rights": "Seluruh karya merupakan milik RawonBillish (Illy)."
+  }
+}
