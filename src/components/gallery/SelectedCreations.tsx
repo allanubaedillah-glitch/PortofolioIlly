@@ -3,17 +3,20 @@
 import { ArrowRight } from "lucide-react";
 import { ArtworkCard } from "@/components/artwork/ArtworkCard";
 import { Reveal } from "@/components/ui/Reveal";
-import type { Artwork, Translations } from "@/lib/types";
+import { getArtworkDescription } from "@/lib/data";
+import type { Artwork, Language, Translations } from "@/lib/types";
 
 interface SelectedCreationsProps {
   t: Translations["featured"];
   artworks: Artwork[];
+  lang: Language;
   onSelect: (artwork: Artwork) => void;
 }
 
 export function SelectedCreations({
   t,
   artworks,
+  lang,
   onSelect,
 }: SelectedCreationsProps) {
   const displayItems = artworks.slice(0, 6);
@@ -62,8 +65,10 @@ export function SelectedCreations({
                 artwork={displayItems[0]}
                 onSelect={onSelect}
                 indexLabel="01"
+                description={getArtworkDescription(displayItems[0], lang)}
+                actionHint={lang === "id" ? "Lihat detail" : "View detail"}
                 className="h-full"
-                imageContainerClass="aspect-[4/5] md:aspect-[3/4] lg:min-h-[390px]"
+                imageContainerClass="aspect-[4/5] md:aspect-auto md:flex-1 md:min-h-[420px]"
               />
             </Reveal>
           )}

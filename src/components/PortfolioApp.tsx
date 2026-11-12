@@ -53,6 +53,7 @@ export function PortfolioApp() {
         <SelectedCreations
           t={t.featured}
           artworks={featuredArtworks}
+          lang={lang}
           onSelect={handleOpenFeatured}
         />
 

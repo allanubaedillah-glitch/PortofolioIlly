@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Film, Sparkles } from "lucide-react";
+import { ArrowUpRight, Film, Sparkles } from "lucide-react";
 import type { Artwork } from "@/lib/types";
 
 interface ArtworkCardProps {
@@ -11,6 +11,8 @@ interface ArtworkCardProps {
   imageContainerClass?: string;
   showCategoryBadge?: boolean;
   indexLabel?: string;
+  description?: string;
+  actionHint?: string;
 }
 
 export function ArtworkCard({
@@ -20,6 +22,8 @@ export function ArtworkCard({
   imageContainerClass = "aspect-[4/5]",
   showCategoryBadge = true,
   indexLabel,
+  description,
+  actionHint,
 }: ArtworkCardProps) {
   const [frameIdx, setFrameIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -106,21 +110,44 @@ export function ArtworkCard({
       </div>
 
       {/* Card Footer Metadata */}
-      <div className="flex flex-1 flex-col justify-between gap-2 p-4 sm:px-5 sm:py-4">
-        <div className="flex items-start justify-between gap-2">
-          <h3 className="font-display text-sm leading-snug font-bold text-[#1B2945] transition-colors group-hover:text-[#A96850] sm:text-[15px]">
-            {artwork.title}
-          </h3>
-          <span className="shrink-0 font-mono text-[11px] font-medium text-[#34445F]/70">
-            {artwork.year}
-          </span>
+      <div
+        className={`flex flex-col justify-between gap-2.5 p-4 sm:px-5 sm:py-4 ${
+          description ? "shrink-0 sm:p-5" : "flex-1"
+        }`}
+      >
+        <div className="space-y-1.5">
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="font-display text-sm leading-snug font-bold text-[#1B2945] transition-colors group-hover:text-[#A96850] sm:text-[15px]">
+              {artwork.title}
+            </h3>
+            <span className="shrink-0 font-mono text-[11px] font-medium text-[#34445F]/70">
+              {artwork.year}
+            </span>
+          </div>
+
+          {description && (
+            <p className="text-xs leading-relaxed text-[#34445F] sm:text-[13.5px]">
+              {description}
+            </p>
+          )}
         </div>
 
-        {showCategoryBadge && (
-          <div className="flex items-center justify-between gap-2">
-            <span className="inline-flex items-center rounded-full bg-[#F5F3F0] px-2.5 py-0.5 text-[11px] font-semibold text-[#34445F]">
-              {artwork.category}
-            </span>
+        {(showCategoryBadge || actionHint) && (
+          <div className="flex items-center justify-between gap-2 pt-0.5">
+            {showCategoryBadge ? (
+              <span className="inline-flex items-center rounded-full bg-[#F5F3F0] px-2.5 py-0.5 text-[11px] font-semibold text-[#34445F]">
+                {artwork.category}
+              </span>
+            ) : (
+              <span />
+            )}
+
+            {actionHint && (
+              <span className="inline-flex items-center gap-1 text-[11px] font-bold text-[#A96850] transition-transform duration-200 group-hover:translate-x-0.5">
+                <span>{actionHint}</span>
+                <ArrowUpRight className="h-3.5 w-3.5" />
+              </span>
+            )}
           </div>
         )}
       </div>
