@@ -55,23 +55,18 @@ export function Navbar({ t, lang, onChangeLang, socials }: NavbarProps) {
   return (
     <header className="sticky top-0 z-40 border-b border-[#1B2945]/10 bg-[#F5F3F0]/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        {/* Left: Compact brand identity (adapted from Reference 1 left cluster) */}
+        {/* Left: Clean brand wordmark */}
         <a
           href="#home"
           onClick={() => handleLinkClick("home")}
-          className="group flex items-center gap-2.5 rounded-full py-1 pr-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1B2945]"
+          className="group flex flex-col justify-center py-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1B2945]"
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#1B2945] font-display text-xs font-extrabold tracking-tight text-white shadow-sm transition-transform duration-200 group-hover:-rotate-3">
-            RB
+          <span className="font-display text-base font-bold tracking-tight text-[#1B2945] transition-colors group-hover:text-[#A96850] sm:text-lg">
+            RawonBillish
           </span>
-          <div className="flex flex-col leading-none">
-            <span className="font-display text-sm font-bold tracking-tight text-[#1B2945] sm:text-base">
-              RawonBillish
-            </span>
-            <span className="text-[10px] font-medium text-[#A96850]">
-              Illy&apos;s Universe
-            </span>
-          </div>
+          <span className="text-[10px] font-medium text-[#A96850]">
+            Illy&apos;s Universe
+          </span>
         </a>
 
         {/* Center: Clean horizontal navigation with active underline */}

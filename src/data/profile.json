@@ -38,18 +38,18 @@
   ],
   "tools": [
     {
-      "name": "[Add Primary Drawing App]",
+      "name": "[Ibis Paint X]",
       "status": "placeholder"
     },
     {
-      "name": "[Add Pixel Art Tool]",
+      "name": "[Pinterest]",
       "status": "placeholder"
     },
     {
-      "name": "[Add Tablet / Device]",
+      "name": "[Hp oppo A54]",
       "status": "placeholder"
     }
   ],
-  "journeyPlaceholderEn": "This space is reserved for Illy's personal creative journey note — how drawing started, favorite themes, and current artistic experiments. (Editable in src/data/profile.json)",
-  "journeyPlaceholderId": "Ruang ini disiapkan untuk cerita perjalanan kreatif pribadi Illy — awal mula suka menggambar, tema favorit, hingga eksperimen visual saat ini. (Dapat diubah di src/data/profile.json)"
+  "journeyPlaceholderEn": "Illy is, in truth, just an artist who enjoys doodling starting from the cartoons of her childhood and the characters she played in various games, all the way to exploring a wide range of other subjects today. I know this isn’t perfect yet, but I will keep learning and trying new things.",
+  "journeyPlaceholderId": "Illy sebeenernya hanya seorang artist Iseng yang sedari dlu suka mengambar dimulai dari kartun masa kecilnya karakter yang dia mainkan disuatu game hingga sekarang explore semua hal, aku tau ini belum sempurna tapi aku akan terus belajar dan mencoba hal baru."
 }

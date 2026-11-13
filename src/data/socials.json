@@ -7,24 +7,24 @@
     "configured": true
   },
   {
-    "id": "behance",
-    "platform": "Behance",
-    "handle": "Add Behance link in src/data/socials.json",
-    "url": "",
-    "configured": false
+    "id": "Facebook",
+    "platform": "Facebook",
+    "handle": "sora.ngespal",
+    "url": "https://www.facebook.com/sora.ngespal",
+    "configured": true
   },
   {
     "id": "artstation",
     "platform": "ArtStation",
-    "handle": "Add ArtStation link in src/data/socials.json",
-    "url": "",
-    "configured": false
+    "handle": "Piero Kesiangan",
+    "url": "https://id.pinterest.com/pierokesiangan/",
+    "configured": true
   },
   {
     "id": "email",
     "platform": "Email",
-    "handle": "Add email address in src/data/socials.json",
-    "url": "",
-    "configured": false
+    "handle": "Click to Email",
+    "url": "allanubaedillah@gmail.com",
+    "configured": true
   }
 ]
